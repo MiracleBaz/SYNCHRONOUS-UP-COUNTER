@@ -52,17 +52,9 @@ TRUTH TABLE
 Developed by:E Subash Miracle Raj RegisterNumber:24000572
 */
 
-module exp11(out,clk,rstn);
-input clk,rstn;
-output reg [3:0]out;
-always @ (posedge clk)
-begin
-   if(!rstn)
-     out<=0;
-   else 
-     out <= out+1;
-end
-endmodule
+
+![SY4](https://github.com/user-attachments/assets/c01dfa3d-7e80-4cbb-86d8-30f06d0eab1c)
+
 
 **RTL LOGIC UP COUNTER**
 
